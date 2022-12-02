@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+body {
+  background-image: url(./img/fon.jpg);
+}
+.card-a {
+  display: flex;
+}
+.card-img {
+  width: 100%px;
+  height: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.687);
+}
+.card {
+  border: 2px solid rgba(0, 0, 0, 0.635);
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+  background-color: rgba(67, 67, 67, 0.479);
+}
+.card-content {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.693);
+  color: rgb(54, 54, 54);
+}
+.ml {
+  border-radius: 10px;
+  color: rgb(175, 175, 175);
+  background-color: rgba(44, 44, 44, 0.93);
+  margin: 50px 0 30px 0;
+}
+.box-a {
+  background-color: rgba(255, 255, 255, 0.692);
+  text-align: center;
+  border-radius: 10px;
+}
+.card-hover:hover {
+  width: 830px;
+  height: 370px;
+  box-shadow: 0 0 30px rgba(0, 213, 255, 0.75);
+}
+.btn-hover:hover {
+  background-color: rgb(0, 217, 255);
+  color: black;
+}
+.card-image {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.card-content-a {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+}
