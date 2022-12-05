@@ -19,7 +19,7 @@ body {
   border: 2px solid rgba(0, 0, 0, 0.635);
   margin: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
-  background-color: rgba(67, 67, 67, 0.479);
+  background-color: rgba(67, 67, 67, 0.801);
 }
 .card-content {
   padding: 10px;
@@ -65,6 +65,7 @@ nav {
   padding: 15px;
   padding-left: 40px;
   padding-right: 40px;
+  border-bottom: 3px solid rgba(42, 42, 42, 0.905);
 }
 nav ul {
   list-style-type: none;
@@ -77,7 +78,7 @@ nav ul li a {
   padding: 10px;
 }
 nav:hover {
-  border: 3px solid rgb(0, 140, 255);
+  border-bottom: 3px solid rgb(0, 140, 255);
   box-shadow: 0 0 20px rgba(25, 139, 232, 0.783);
 }
 nav a:hover {
