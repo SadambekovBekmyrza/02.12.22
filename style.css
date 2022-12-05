@@ -39,8 +39,6 @@ body {
   border-radius: 10px;
 }
 .card-hover:hover {
-  width: 830px;
-  height: 370px;
   box-shadow: 0 0 30px rgba(0, 213, 255, 0.75);
 }
 .btn-hover:hover {
